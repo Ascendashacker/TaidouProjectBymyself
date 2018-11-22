@@ -7,7 +7,7 @@
 *.csproj
 
 *.unityproj
-
+/.vs/
 *.sln
 
 *.suo
