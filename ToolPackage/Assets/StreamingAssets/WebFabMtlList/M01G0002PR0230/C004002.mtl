@@ -1,0 +1,74 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:14.03.2018 17:31:26
+newmtl mian_1_m
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0760 0.0760 0.0760
+	map_Ka -o -0.4667 -0.4667 0.0000 -s 15.0000 15.0000 1.0000 maps\M01G0002PR0230_Color.jpg
+	map_Kd -o -0.4667 -0.4667 0.0000 -s 15.0000 15.0000 1.0000 maps\M01G0002PR0230_Color.jpg
+	map_Ks -o -0.4667 -0.4667 0.0000 -s 15.0000 15.0000 1.0000 maps\M01G0002PR0230_Specular.jpg
+	map_bump -bm 0.1000 -o -0.4667 -0.4667 0.0000 -s 15.0000 15.0000 1.0000 maps\M01G0002PR0230_Normal.jpg
+	bump -bm 0.1000 -o -0.4667 -0.4667 0.0000 -s 15.0000 15.0000 1.0000 maps\M01G0002PR0230_Normal.jpg
+newmtl jmw_line_10_m
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\10_line.png
+	map_Kd maps\10_line.png
+	map_d maps\10_line.png
+newmtl bartack_100_m
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\100_bartack.png
+	map_Kd maps\100_bartack.png
+	map_d maps\100_bartack.png
+newmtl button_m
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7120 0.7120 0.7120
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.2520 0.2520 0.2520
+newmtl buttonhole_5_m
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\buttonhole_1_col.png
+	map_Kd maps\buttonhole_1_col.png
+	map_Ks maps\buttonhole_1_spec.png
+	map_d maps\buttonhole_1_col.png
+	map_bump -bm 0.3000 maps\buttonhole_1_nrm.png
+	bump -bm 0.3000 maps\buttonhole_1_nrm.png
