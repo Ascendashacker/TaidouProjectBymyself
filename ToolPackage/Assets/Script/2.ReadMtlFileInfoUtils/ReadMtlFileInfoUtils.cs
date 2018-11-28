@@ -231,8 +231,6 @@ public class ReadMtlFileInfoUtils : MonoBehaviour
         }
         Texture2D tex = new Texture2D(1, 1);
         tex.LoadImage(File.ReadAllBytes(path));
-        //string path = Application.dataPath + "/Resources/texture/cloth/" + texPath.Split('\\')[1];
-        //tex2D.LoadImage(File.ReadAllBytes(path));  // maps/lin.png  写死贴图存放路径为unity路径。方便管理
         curMat.SetTexture(attName, tex);
         if (cmps.Length >= 10)//有可能无平铺,待优化判断条件
         {
