@@ -82,7 +82,7 @@ public class ReadTextrueInfoUtils : MonoBehaviour
                 TextureFormat.Alpha8.ToString(),
                 TextureFormat.ARGB32.ToString(),
                 TextureFormat.ARGB4444.ToString(),
-                TextureFormat.ATC_RGBA8.ToString(),
+                TextureFormat.ETC2_RGBA8.ToString(),
                 TextureFormat.BGRA32.ToString(),
                 TextureFormat.PVRTC_RGB2.ToString(),
                 TextureFormat.PVRTC_RGB4.ToString(),
