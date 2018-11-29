@@ -15,4 +15,5 @@
 *.tmp
 
 *.user
-/ProjectSettings/
+/[Pp]rojectSettings/
+/[Pp]ackages/
