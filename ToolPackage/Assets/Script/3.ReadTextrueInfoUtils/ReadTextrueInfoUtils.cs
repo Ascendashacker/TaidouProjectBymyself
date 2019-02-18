@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-
+/// <summary>
+/// 功能描述(Description)：	读取贴图主色调工具类
+/// 作者(Author)：			Ascendashacker
+/// 日期(Create Date)：		2019/2/18 15:31:39
 public class ReadTextrueInfoUtils : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
-
     /// <summary>
     /// 获取贴图的主色调
     /// 方法有很多种，主要是性能问题

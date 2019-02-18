@@ -1,12 +1,12 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Collections.Generic;
-using System;
-
-public class ReadMtlFileInfoUtils : MonoBehaviour
+using UnityEngine;
+/// <summary>
+/// 功能描述(Description)：	读取mtl文件信息工具类
+/// 作者(Author)：			Ascendashacker
+/// 日期(Create Date)：		2019/2/18 15:31:39
+public class ReadMtlFileInfoUtils : Singleton<ReadMtlFileInfoUtils>
 {
-
     /// <summary>
     /// Untiy端标准材质球
     ///  当一个模型有多个mtl文件时，看业务需要进行去重操作

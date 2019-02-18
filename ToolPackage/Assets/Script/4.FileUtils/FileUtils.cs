@@ -1,8 +1,10 @@
-﻿
-using System;
-using System.IO;
-
+﻿using System.IO;
+/// <summary>
+/// 功能描述(Description)：	单例基类
+/// 作者(Author)：			Ascendashacker
+/// 日期(Create Date)：		2019/2/18 15:31:39
 public class FileUtils: Singleton<FileUtils> {
+
     /// <summary>
     /// 将文件转换成byte[] 数组
     /// </summary>
@@ -10,25 +12,7 @@ public class FileUtils: Singleton<FileUtils> {
     /// <returns>byte[]</returns>
     public byte[] GetFileByteData(string fileUrl)
     {
-        FileStream fs = new FileStream(fileUrl, FileMode.Open, FileAccess.Read);
-        try
-        {
-            byte[] buffur = new byte[fs.Length];
-            fs.Read(buffur, 0, (int)fs.Length);
-            return buffur;
-        }
-        catch (Exception e)
-        {
-            return null;
-        }
-        finally
-        {
-            if (fs != null)
-            {
-                //关闭资源
-                fs.Close();
-            }
-        }
+        return File.ReadAllBytes(fileUrl);
     }
 
     /// <summary>

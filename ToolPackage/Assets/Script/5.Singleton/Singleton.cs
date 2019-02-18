@@ -1,7 +1,7 @@
 ﻿/// <summary>
-/// 单例基类
-/// </summary>
-/// <typeparam name="T"></typeparam>
+/// 功能描述(Description)：	单例基类
+/// 作者(Author)：			Ascendashacker
+/// 日期(Create Date)：		2019/2/18 15:31:39
 public class Singleton<T> where T : new()
 {
     public static T Instance

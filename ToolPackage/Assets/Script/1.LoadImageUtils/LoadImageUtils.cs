@@ -3,9 +3,13 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 /// <summary>
-/// Unity加载贴图的几种方式
-/// </summary>
-public class LoadImage : MonoBehaviour {
+/// 功能描述(Description)：	Unity加载贴图的几种方式
+/// 作者(Author)：			Ascendashacker
+/// 日期(Create Date)：		2019/2/18 15:31:39
+public class LoadImageUtils : MonoBehaviour {
+
+    //TODO 将测试代码提出，只留api
+
     /* 1.WWW方式
      * 2.IO方式
      * 3.Resource.load()方式
