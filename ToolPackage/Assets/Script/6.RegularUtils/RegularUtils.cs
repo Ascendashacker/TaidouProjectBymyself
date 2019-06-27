@@ -137,6 +137,24 @@ public class RegularUtils : Singleton<RegularUtils>
     #endregion
 
     /// <summary>
+    /// 保留字符串小数
+    /// </summary>
+    /// <param name="inputStr">输入字符</param>
+    /// <param name="decimalCount">保留小数的个数</param>
+    /// <returns></returns>
+    public static string SaveDecimalString(string inputStr,int decimalCount)
+    {
+        if (string.IsNullOrEmpty(inputStr)) return null;
+        string[] strArray = inputStr.Split('.');
+        if (strArray == null || strArray.Length <= 1)
+        {
+            return inputStr;
+        }
+        int lenth = inputStr.LastIndexOf('.') + 1 + (strArray[1].Length > decimalCount ? decimalCount : strArray[1].Length);
+        return inputStr.Substring(0, lenth);
+    } 
+
+    /// <summary>
     /// 正则校验
     /// </summary>
     /// <param name="regexStr">正则</param>
